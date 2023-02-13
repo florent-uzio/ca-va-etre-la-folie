@@ -27,7 +27,7 @@ export const Countdown = ({ player, arrivalDate }: CountdownProps) => {
 
       <CardBody>
         <VStack spacing={6}>
-          <HStack justifyContent="center" spacing="5">
+          <HStack justifyContent="center" spacing={{ base: 2, md: 5 }}>
             <VStack>
               <Text fontWeight="bold">{days}</Text>
               <Text>Jours</Text>
